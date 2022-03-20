@@ -1,0 +1,33 @@
+@media ( max-width: 770px ) {
+
+    .header-wraper {
+        justify-content: space-around;
+        .header-img {
+            margin-left: 0;
+        }
+        nav {
+            margin-left: 0;
+        }
+    }
+    .section-2 {
+        .s2-box {
+            .s2-mini-box {
+                div {
+                    h3 {
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+}

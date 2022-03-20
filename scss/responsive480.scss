@@ -1,0 +1,41 @@
+@media ( max-width: 480px ) {
+
+    .header-wraper {
+        justify-content: space-around;
+        
+        nav {
+            display: none;
+        }
+        .burger-icon {
+            display: block;
+            font-size: 18px;
+        }
+    }
+    .section-1 {
+        h6 {
+            width: 260px;
+        }
+    }
+    .section-2 {
+        padding: 0 5px;
+        .s2-box {
+            .s2-mini-box {
+                height: 555px;
+                img {
+                    height: 300px;
+                }
+                div {
+                    h3 {
+                        font-size: 20px;
+                    }
+                    p:nth-child(2) {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}
