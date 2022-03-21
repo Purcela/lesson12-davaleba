@@ -36,6 +36,53 @@
             }
         }
     }
+    .footer-wraper {
+        .footer-box {
+            height: 100%;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            .footer-minibox {
+                margin-top: 50px;
+                text-align: center;
+                &:nth-child(3) {
+                    width: 231px;
+                    h3 {
+                        font-size: 24px;
+                    }
+                }
+            }
+            .footer-payment {
+                width: 215px;
+                align-items: center;
+                margin-top: 50px;
+                h3 {
+                    width: 100%;
+                    font-size: 24px;
+                }
+            }
+        }
+        p {
+            margin-right: 0;
+            margin: 45px auto 0;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

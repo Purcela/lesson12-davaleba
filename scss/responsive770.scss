@@ -20,6 +20,31 @@
             }
         }
     }
+    .footer-wraper {
+        height: 100%;
+        .footer-box {
+            max-width: 457px;
+            height: 500px;
+            flex-wrap: wrap;
+            align-content: space-between;
+            justify-content: space-evenly;
+            .footer-minibox {
+                &:nth-child(3) {
+                    width: 46%;
+                    h3 {
+                        font-size: 20px;
+                    }
+                }
+            }
+            .footer-payment {
+                width: 43%;
+                h3 {
+                    width: 179px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
 
 
 

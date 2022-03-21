@@ -55,11 +55,7 @@ a {
 @font-face {
   font-family: "Poppins Regular";
   src: url("../fonts/poppins/Poppins-Regular.eot");
-  src: url("../fonts/poppins/Poppins-Regular.eot?#iefix") format("embedded-opentype"), 
-      url("../fonts/poppins/Poppins-Regular.woff2") format("woff2"), 
-      url("../fonts/poppins/Poppins-Regular.woff") format("woff"), 
-      url("../fonts/poppins/Poppins-Regular.ttf") format("truetype"), 
-      url("../fonts/poppins/Poppins-Regular.svg#Poppins-Regular") format("svg");
+  src: url("../fonts/poppins/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/Poppins-Regular.woff2") format("woff2"), url("../fonts/poppins/Poppins-Regular.woff") format("woff"), url("../fonts/poppins/Poppins-Regular.ttf") format("truetype"), url("../fonts/poppins/Poppins-Regular.svg#Poppins-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -67,11 +63,7 @@ a {
 @font-face {
   font-family: "Poppins Bold";
   src: url("../fonts/poppins/Poppins-Bold.eot");
-  src: url("../fonts/poppins/Poppins-Bold.eot?#iefix") format("embedded-opentype"), 
-      url("../fonts/poppins/Poppins-Bold.woff2") format("woff2"), 
-      url("../fonts/poppins/Poppins-Bold.woff") format("woff"), 
-      url("../fonts/poppins/Poppins-Bold.ttf") format("truetype"), 
-      url("../fonts/poppins/Poppins-Bold.svg#Poppins-Bold") format("svg");
+  src: url("../fonts/poppins/Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/Poppins-Bold.woff2") format("woff2"), url("../fonts/poppins/Poppins-Bold.woff") format("woff"), url("../fonts/poppins/Poppins-Bold.ttf") format("truetype"), url("../fonts/poppins/Poppins-Bold.svg#Poppins-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -79,23 +71,23 @@ a {
 @font-face {
   font-family: "Poppins Medium";
   src: url("../fonts/poppins/Poppins-Medium.eot");
-  src: url("../fonts/poppins/Poppins-Medium.eot?#iefix") format("embedded-opentype"), 
-      url("../fonts/poppins/Poppins-Medium.woff2") format("woff2"), 
-      url("../fonts/poppins/Poppins-Medium.woff") format("woff"), 
-      url("../fonts/poppins/Poppins-Medium.ttf") format("truetype"), 
-      url("../fonts/poppins/Poppins-Medium.svg#Poppins-Medium") format("svg");
+  src: url("../fonts/poppins/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/Poppins-Medium.woff2") format("woff2"), url("../fonts/poppins/Poppins-Medium.woff") format("woff"), url("../fonts/poppins/Poppins-Medium.ttf") format("truetype"), url("../fonts/poppins/Poppins-Medium.svg#Poppins-Medium") format("svg");
   font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("../fonts/poppins/Poppins-SemiBold.eot");
+  src: url("../fonts/poppins/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/poppins/Poppins-SemiBold.woff") format("woff"), url("../fonts/poppins/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/poppins/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Playfair Display Black";
   src: url("../fonts/PlayfairDisplay-Black.eot");
-  src: url("../fonts/PlayfairDisplay-Black.eot?#iefix")format("embedded-opentype"), 
-      url("../fonts/PlayfairDisplay-Black.woff2") format("woff2"), 
-      url("../fonts/PlayfairDisplay-Black.woff") format("woff"), 
-      url("../fonts/PlayfairDisplay-Black.ttf") format("truetype"), 
-      url("../fonts/PlayfairDisplay-Black.svg#PlayfairDisplay-Black") format("svg");
+  src: url("../fonts/PlayfairDisplay-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayfairDisplay-Black.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Black.woff") format("woff"), url("../fonts/PlayfairDisplay-Black.ttf") format("truetype"), url("../fonts/PlayfairDisplay-Black.svg#PlayfairDisplay-Black") format("svg");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -103,11 +95,7 @@ a {
 @font-face {
   font-family: "Playfair Display Bold";
   src: url("../fonts/PlayfairDisplay-Bold.eot");
-  src: url("../fonts/PlayfairDisplay-Bold.eot?#iefix") format("embedded-opentype"), 
-      url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"), 
-      url("../fonts/PlayfairDisplay-Bold.woff") format("woff"), 
-      url("../fonts/PlayfairDisplay-Bold.ttf") format("truetype"), 
-      url("../fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold") format("svg");
+  src: url("../fonts/PlayfairDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Bold.woff") format("woff"), url("../fonts/PlayfairDisplay-Bold.ttf") format("truetype"), url("../fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -308,7 +296,85 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-end;
+}
+.footer-wraper .footer-box {
+  max-width: 1325px;
+  width: 100%;
+  height: 215px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-wraper .footer-box .footer-minibox {
+  width: 124px;
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-wraper .footer-box .footer-minibox h3 {
+  width: 100%;
+  height: 33px;
+  font-family: "Poppins SemiBold";
+  font-size: 24px;
+  color: #282828;
+}
+.footer-wraper .footer-box .footer-minibox ul {
+  width: 100%;
+  height: 167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Poppins Regular";
+  font-size: 16px;
+  color: #7B7B7B;
+}
+.footer-wraper .footer-box .footer-minibox:nth-child(3) {
+  width: 231px;
+}
+.footer-wraper .footer-box .footer-payment {
+  width: 215px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer-wraper .footer-box .footer-payment h3 {
+  width: 100%;
+  height: 33px;
+  font-family: "Poppins SemiBold";
+  font-size: 24px;
+  color: #282828;
+}
+.footer-wraper .footer-box .footer-payment div {
+  width: 190px;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+.footer-wraper .footer-box .footer-payment div img:nth-child(1) {
+  width: 54px;
+  height: 54px;
+}
+.footer-wraper .footer-box .footer-payment div img:nth-child(2) {
+  width: 49.5px;
+  height: 34.5px;
+}
+.footer-wraper .footer-box .footer-payment div img:nth-child(3) {
+  width: 54px;
+  height: 34px;
+}
+.footer-wraper p {
+  max-width: 291px;
+  height: 23px;
+  margin-top: 45px;
+  margin-right: 9%;
+  font-family: "Poppins Regular";
+  font-size: 16px;
+  color: #A4A4A4;
 }
 
 @media (max-width: 1300px) {
@@ -329,6 +395,30 @@ body {
 
   .section-2 .s2-box .s2-mini-box div h3 {
     font-size: 32px;
+  }
+
+  .footer-wraper {
+    height: 100%;
+  }
+  .footer-wraper .footer-box {
+    max-width: 457px;
+    height: 500px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+  }
+  .footer-wraper .footer-box .footer-minibox:nth-child(3) {
+    width: 46%;
+  }
+  .footer-wraper .footer-box .footer-minibox:nth-child(3) h3 {
+    font-size: 20px;
+  }
+  .footer-wraper .footer-box .footer-payment {
+    width: 43%;
+  }
+  .footer-wraper .footer-box .footer-payment h3 {
+    width: 179px;
+    font-size: 20px;
   }
 }
 @media (max-width: 480px) {
@@ -362,5 +452,36 @@ body {
   }
   .section-2 .s2-box .s2-mini-box div p:nth-child(2) {
     font-size: 12px;
+  }
+
+  .footer-wraper .footer-box {
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .footer-wraper .footer-box .footer-minibox {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .footer-wraper .footer-box .footer-minibox:nth-child(3) {
+    width: 231px;
+  }
+  .footer-wraper .footer-box .footer-minibox:nth-child(3) h3 {
+    font-size: 24px;
+  }
+  .footer-wraper .footer-box .footer-payment {
+    width: 215px;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .footer-wraper .footer-box .footer-payment h3 {
+    width: 100%;
+    font-size: 24px;
+  }
+  .footer-wraper p {
+    margin-right: 0;
+    margin: 45px auto 0;
   }
 }

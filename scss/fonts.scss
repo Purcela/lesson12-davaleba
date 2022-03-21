@@ -37,6 +37,19 @@
 }
 
 @font-face {
+    font-family: 'Poppins SemiBold';
+    src: url('../fonts/poppins/Poppins-SemiBold.eot');
+    src: url('../fonts/poppins/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/poppins/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/poppins/Poppins-SemiBold.ttf') format('truetype'),
+        url('../fonts/poppins/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Playfair Display Black';
     src: url('../fonts/PlayfairDisplay-Black.eot');
     src: url('../fonts/PlayfairDisplay-Black.eot?#iefix') format('embedded-opentype'),
